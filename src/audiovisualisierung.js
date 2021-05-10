@@ -27,7 +27,7 @@ var context = new AudioContext();
 if (!window.requestAnimationFrame)
 	window.requestAnimationFrame = window.webkitRequestAnimationFrame;
 
-(function () {
+$(function () {
 		"use strict";
 		var containerHeight = $("#song_info_wrapper").height();
 		var topVal = $(window).height() / 2 - containerHeight / 2;

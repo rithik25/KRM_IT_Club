@@ -1,0 +1,293 @@
+
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(-360deg);
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+#freq {
+    background: linear-gradient(#ff0088, red);
+    position: absolute; 
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#freq.animateHue, body.animateHue {
+    animation-name: hue;
+    animation-duration: 500s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: hue;
+    -webkit-animation-duration: 500s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: infinite;
+
+}
+#container1 {
+    height: 100vh;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#title, #artist, #album {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+   
+    color: #fff;
+    visibility: hidden;
+    letter-spacing: -.05em;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+	margin-bottom: 15px;
+}
+#song_info_wrapper {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+#title {
+	font-size: 10vw;
+}
+
+#artist {
+    font-size: 3vw;
+}
+#album {
+    font-size: 3vw;
+	/*font-size: 40px;*/
+	margin-bottom: 0;
+}
+
+input, button, #loading {
+	position: absolute;
+	top: 10px;
+	left: 5px;
+    display: block;
+    z-index: 999;
+    
+}
+
+button {
+	top: 40px;
+}
+#title12 {
+    color:white;
+    z-index: 10000;
+    position: absolute;
+    top:45vh;
+    left:10vh;
+    font-family: 'Audiowide';
+    font-size: 110px;
+}
+#title23 {
+    color:white;
+    z-index: 10000;
+    position: absolute;
+    top:28vh;
+    left:42%;
+    font-family: 'Audiowide';
+    font-size: 345px;
+    
+}
+#aff {
+    color:white;
+    z-index: 10000;
+    position: absolute;
+    top:45vh;
+    right:4vh;
+    font-family: 'Audiowide';
+    font-size: 110px;
+}
+
+@media screen and (max-width: 1390px) {
+    #title12 {
+    color:white;
+    z-index: 10000;
+    position: absolute;
+    top:45vh;
+    left:0;
+    font-family: 'Audiowide';
+    font-size: 77px;
+}
+#title23 {
+    color:white;
+    z-index: 10000;
+    position: absolute;
+    top:33vh;
+    left:42%;
+    font-family: 'Audiowide';
+    font-size: 245px;
+    
+}
+#aff {
+    color:white;
+    z-index: 10000;
+    position: absolute;
+    top:45vh;
+    right:0vh;
+    font-family: 'Audiowide';
+    font-size: 77px;
+}
+
+
+}
+
+
+#title34 {
+    color:white;
+    z-index: 10000;
+    position: absolute;
+    top:45vh;
+    right:5vh;
+    font-family: 'Audiowide';
+    font-size: 110px;
+}
+
+#loading {
+	display: inline-block;
+	top: 44px; 
+	left: 110px;
+	font-family: "Roboto", sans-serif; 
+	font-size: 12px;
+}
+
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0px;
+}
+
+@media screen and (min-width: 1000px) {
+	#title {
+		font-size: 100px;
+	}
+
+	#artist, #album {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#artist, #album {
+		font-weight: 300;
+		font-size: 4vw;
+	}
+}
+
+@media screen and (max-width: 436px) {
+	#artist, #album {
+		font-weight: 300;
+		font-size: 4.5vw;
+	}
+}
+#photo1{
+    font-size: 30px;
+    margin: 20%;
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#cross1{
+    font-size: 30px;
+    margin: 20%;
+    
+      text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#av1{
+font-size: 30px;
+    margin: 20%;
+
+      text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#car1{
+    font-size: 30px;
+    margin: 20%;
+       text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#word1{
+    font-size: 30px;
+    margin: 20%;
+
+      text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#web1{
+    font-size: 30px;
+    margin: 20%;
+
+      text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#quiz1{
+    font-size: 30px;
+    margin: 20%;
+          text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#game1{
+    font-size: 30px;
+    margin: 20%;
+ 
+      text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#sur1{
+    font-size: 30px;
+    margin: 20%;
+
+      text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+}
+#demo{
+    text-align: center;
+    color: #3EACA8;
+    font-size: 107px;
+        -webkit-animation-delay: 0.3s;
+}
+#school1{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin: 5%;
+
+}
+#pres1{
+    color: white;
+    font-size: 30px;
+    margin-top: -255px;
+}
+#lak1{
+    color: white;
+    font-size: 30px;
+    margin-left: 700px;
+    margin-top: -78px;
+}
+#pri1{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 370px;
+}
